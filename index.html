@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <div id="tools">
+    <div id="colors">
+      <input type="color" id="colorPicker">
+    </div>
+    <div id="penSize">
+      <div id="sizeInfo">5</div>
+      <div id="slider"><input type="range" id="size" min="1" max="50" value="5"></div>
+    </div>
+    <div id="fileTools">
+      <a href="#" class="button" id="clearbutton"><img src="graphics/clear.png"></img></a>
+      <a href="#" class="button" id="savebutton" download="file.png"><img src="graphics/save.png"></img></a>
+    </div>
+  </div>
+  <canvas id="canvas" width="800" height="500"></canvas>
+  <img src="" id="saveimage"></img>
+  <script src="js/paintitblack.js"></script>
+</body>
+</html>
